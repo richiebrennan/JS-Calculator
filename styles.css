@@ -1,0 +1,46 @@
+body {
+    background: #2c3e50;
+    font-family: 'Lato', sans-serif;
+}
+#calculator {
+    height: 666px;
+    width: 500px;
+    margin: 100px auto;
+    background: #262A2E;
+    padding: 0;
+    color: #FFF;
+}
+#screen {
+    width: 100%;
+    height: 150px;
+    background: #000;
+    text-align: right;
+}
+
+#total{
+    padding: 33px;
+    color: #fff;
+    font-size: 80px;
+    line-height: 90px;
+}
+li {
+    padding: 0;
+    list-style: none;
+    margin: 2px;
+    cursor: pointer;
+}
+#buttons li {
+    float: left;
+    width: 121px;
+    text-align: center;
+    line-height: 125px;
+    font-size: 50px;
+    background: #222222;
+}
+
+#buttons li:active{
+    background: #2980B9;
+}
+.operator {
+    color: #2980B9;
+}
